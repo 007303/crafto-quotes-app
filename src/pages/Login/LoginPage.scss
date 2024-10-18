@@ -1,0 +1,29 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 125px);
+    padding: 30px;
+  
+    &.loading {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+  }
+  
+  .login-card {
+    width: 30%;
+  
+    .input-field {
+      margin-bottom: 16px;
+    }
+    @media (max-width: 768px) {
+      width: 100%; 
+    }
+  
+    @media (min-width: 992px) {
+      width: 30%;
+    }
+  }
+  
+  
